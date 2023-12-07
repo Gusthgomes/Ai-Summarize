@@ -1,5 +1,3 @@
-import React from "react";
-
 import { logo } from "../assets/assets";
 
 const Hero = () => {
@@ -10,7 +8,9 @@ const Hero = () => {
 
         <button
           type="button"
-          onClick={() => window.open("https://github.com/Gusthgomes", "_blank")}
+          onClick={() =>
+            window.open("https://github.com/Gusthgomes/Ai-Summarize", "_blank")
+          }
           className="black_btn"
         >
           GitHub
